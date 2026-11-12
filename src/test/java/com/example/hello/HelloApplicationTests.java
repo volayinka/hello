@@ -16,7 +16,7 @@ class HelloApplicationTests {
 	@Test
 	void helloReturnsHello() {
 		HelloController controller = new HelloController();
-		assertEquals("Hello, Viola! It's a great day!", controller.hello());
+		assertEquals("Hello, Viola! It's a great day!", controller.hello("Viola"));
 
 	}
 }
